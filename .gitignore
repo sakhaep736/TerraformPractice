@@ -1,0 +1,6 @@
+*.md
+*lock.hcl
+*/.terraform/*
+*.tfstate*
+*.tfstate.backup
+.doc
