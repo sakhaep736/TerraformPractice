@@ -9,7 +9,7 @@ variable "type" {
     type        = string
     default     = ""
 }
-variable "keypair_name" {
+variable "key" {
     description = "creation of keypair name"
     type        = string
     default     = ""
