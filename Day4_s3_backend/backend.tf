@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "pranav-sakhare-terraform-bucket-2025-backend-state-file"
+    bucket = "pranav-tf-us-east1-demo-2025-12-04-01"
     key    = "terraform.tfstate"
-    region = "ap-south-1"
+    region = "us-east-1"
   }
 }
