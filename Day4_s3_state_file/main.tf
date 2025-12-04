@@ -1,14 +1,13 @@
-resource "aws_vpc" "main" {
-  cidr_block           = "10.0.0.0/16"
-  enable_dns_hostnames = true
-  enable_dns_support   = true
+resource "aws_instance" "name" {
+  ami = "ami-0fa3fe0fa7920f68e"
+  instance_type = "t2.micro"
+  key_name = "key"
   region = "us-east-1"
-
   tags = {
-    Name = "my-vpc"
+    Name = "test_state_file"
   }
 }
 
 resource "aws_s3_bucket" "name" {
      bucket = "pranav-tf-us-east1-demo-2025-12-04-01"
-}
+} 
