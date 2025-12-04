@@ -7,8 +7,3 @@ resource "aws_vpc" "main" {
     Name = "my-vpc"
   }
 }
-
-resource "aws_s3_bucket" "name" {
-     bucket="Pranav-sakhare-terraform-bucket-2025-backend-state-file"
-    region="us-east-1"
-}
