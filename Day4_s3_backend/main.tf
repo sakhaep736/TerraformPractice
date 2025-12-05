@@ -7,7 +7,3 @@ resource "aws_instance" "name" {
     Name = "test_state_file"
   }
 }
-
-resource "aws_s3_bucket" "name" {
-  bucket = "pranav-tf-us-east1"
-}
