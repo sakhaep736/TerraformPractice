@@ -9,5 +9,5 @@ resource "aws_instance" "name" {
 }
 
 resource "aws_s3_bucket" "name" {
-     bucket = "pranav-tf-us-east1-demo-2025-12-04-01"
+     bucket = "pranav-tf-us-east1-demo-2025-12-04-02"
 }  
