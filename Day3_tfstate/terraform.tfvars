@@ -1,4 +1,4 @@
 ami_id="ami-068c0051b15cdb816"
 type="t2.micro"
-key="us-east-1"
+key="us-east-2"
 region="us-east-1"
